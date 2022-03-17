@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JUDO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+  </head>
 <body>
+  <div class="shadow-lg p-3 mb-5 bg-body rounded">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><h1>JUDO</h1></a>
@@ -19,13 +22,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">AHOJ</a>
+                <a class="nav-link" href="./ostatní stranky/novinky.html">Novinky</a>
               </li>
 
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Nothing</a>
-              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ostatní stranky/historie.html">Historie</a>
+            </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -33,85 +36,112 @@
             </form>
           </div>
         </div>
+      </div>
       </nav>
-      <div class="container-sm">100% wide until small breakpoint</div>
-
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="./images/ahoj.png"class="w-25 p-3" class="h-25 d-inline-block"class="card-img-top" alt="Bootstrap">
-            <div class="card-body">
-              <h5 class="card-title">Krpálek</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./images/sc.png" class="w-25 p-3" class="h-25 d-inline-block" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Hifumi Abe</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Josef Martinka</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Dominik Dědek</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="./images/ijf.png" alt="" width="120" height="120">
+        <h1 class="display-5 fw-bold">JUDO</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Judo, celý název Kodokan Judo (Kódókan džúdó), vzniklo z několika škol džiu-džitsu (angl. trans. jiu-jitsu), které vyučovaly sebeobranu neozbrojeného člověka v tehdejším pojetí. Sebeobrana řešila skutečné bojové situace, které vznikaly při boji muže proti muži. Jestliže jeden z bojovníků přišel v boji o svou zbraň, nastala situace, kdy musel bojovat o svůj život. Úspěšné provedení technik pak končilo smrtí útočníka nebo jeho destruktivním poškozením tj. zlomeniny, vykloubeniny atd. Cílem juda je mít možnost volby, zda při úspěšně provedené obraně útočníka poraním, nebo nad ním pouze získám kontrolu a vysvětlím mu marnost jeho počínání. Tomuto cíli odpovídá i skladba technik waza. Kolébkou juda je Tokio v Japonsku.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://www.ijf.org/"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">IJF</button></a>
+           <a href="https://www.czechjudo.org/"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Czech Judo</button></a>
           </div>
         </div>
       </div>
-      
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Přihlašte se a dostávejte informace z první ruky</h1>
+            <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+              <hr class="my-4">
+              <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/sc.png" class="d-block w-100" alt="bootstrap">
+            <img src="./images/ABE.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Hifumi a Uta</h5>
+              <p>Sourozenci Abeovi součastně vyhráli olympijské hry.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/ahoj.png" class="d-block w-100" alt="Bootstrap">
+            <img src="./images/france.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Zlatá Francie</h5>
+              <p>Francie překvapila svět, když ve finále porazila Japonsko.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/sc.png" class="d-block w-100" alt="Bootstrap">
+            <img src="./images/rvz.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            
+              <h5>Sraz RVŽ</h5>
+              <p>Judisté z celého Olomouckého kraje se sešli a poprali.</p>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
+    
+    <div class="container border-secondary border p-2 mt-5">
+      <div class="container">
+        <p class="text-muted">Comments</p>
+      </div>
+    <div class="row">
+      <img class="col-4" style="width: 120px;max-height: 100px;" src="./images/username.png" alt="moderátorka">
+        <div class="col-8 text-dark ">
+          <h4 class="fs-5">Strejda Vlasta:</h4>
+          <p>Judo v České republice je na vysoké úrovni. V Judoclubu Liberec maj výbornou práci s mladými nadějnými sportovci. <br>
+          Proto se jejich svěřenci umistují na těch nejvyšších příčkách. S prací klubu jsem velmi spokojený</p>
+        </div>
+    </div>
+  </div>
      
-     <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
+<footer class="text-center text-lg-start text-muted">
     <!-- Section: Social media -->
     <section
       class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
     >
       <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Spojte se s námi na těchto adresách:</span>
-      </div>
+      
       <!-- Left -->
   
       <!-- Right -->
@@ -163,16 +193,16 @@
               Products
             </h6>
             <p>
-              <a href="#!" class="text-reset">Angular</a>
+              <a href="#!" class="text-reset">Kimono</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">React</a>
+              <a href="#!" class="text-reset">Pásky</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Vue</a>
+              <a href="#!" class="text-reset">Doplňky</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Laravel</a>
+              <a href="#!" class="text-reset">Oblečení</a>
             </p>
           </div>
           <!-- Grid column -->
